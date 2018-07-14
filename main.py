@@ -27,7 +27,7 @@ SCOPES = 'https://www.googleapis.com/auth/calendar'
 CLIENT_SECRET_FILE = 'client_secret.json'
 APPLICATION_NAME = 'Google Calendar API Python Quickstart'
 
-DATES_POST_URL = "http://ekosystem.wroc.pl/admin/admin-ajax.php"
+DATES_POST_URL = "https://ekosystem.wroc.pl/admin/admin-ajax.php"
 DATES_DATA = {'action': 'harmonogram_nowy_step2', 'id_numeru': 375877}
 
 CALENDAR_ADDRESS = "a55ujg5sn58h6cege4qvqh595c@group.calendar.google.com"  # Wywóz śmieci
