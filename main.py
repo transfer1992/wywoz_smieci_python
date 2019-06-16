@@ -45,6 +45,7 @@ event_template = {
     'reminders': {
         'useDefault': False,
         'overrides': [
+            {'method': 'popup', 'minutes': 3 * 60},
             {'method': 'popup', 'minutes': 6 * 60},
         ],
     },
